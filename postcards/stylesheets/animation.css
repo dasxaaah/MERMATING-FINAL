@@ -1,0 +1,45 @@
+.updown {
+    animation: updown 2.1s infinite ease-in-out;
+}
+@keyframes updown {
+    0% {
+    transform: translateY(0vw);
+    }
+    50% {
+        transform: translateY(-1vw);
+    }
+    100% {
+        transform: translateY(0vw);
+    }
+}
+
+.rotate {
+    animation: rotate 3s infinite ease-in-out;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.rotatetext {
+    animation: rotatetext 3s infinite ease-in-out;
+}
+@keyframes rotatetext {
+    0% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(90deg);
+    }
+    60% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}

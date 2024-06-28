@@ -1,0 +1,9 @@
+@import "content.css";
+@import "reset.css";
+@import "animation.css";
+@import "responsive.css";
+
+@font-face {
+    font-family: 'BryndanWrite';
+    src: url('../font/bryndan_write.woff2') format('woff2');
+}

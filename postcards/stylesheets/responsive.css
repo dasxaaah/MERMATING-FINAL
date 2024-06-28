@@ -1,0 +1,14 @@
+@media only screen and (orientation: portrait) {
+    body {
+      height: 100%;
+      overflow: hidden;
+    }
+    .mustrotate {display: block;}
+    .mainscreen {display: none;}
+    .writeletter {display: none;}
+    .makesavethedate {display: none;}
+  }
+  
+  @media only screen and (orientation: landscape) {
+    .mustrotate {display: none;}
+  }

@@ -1,0 +1,24 @@
+@media (max-width: 650px) {
+    nav label {
+        display: block;
+    }
+    .menu li {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    #menuToggle:checked + .menu {
+        display: block;
+        position: absolute;
+        background-color: #D4ADF7;
+        width: 100%;
+        left: 0;
+    }
+    .menu li a {
+        line-height: 40px;
+    }
+    nav {
+        border-radius: 0;
+    }
+}

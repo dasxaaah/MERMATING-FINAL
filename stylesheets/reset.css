@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1 {
+    font-family: 'NeutralFace';
+	font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 60px);
+	color: #D4ADF7;
+	margin-left: 7vw;
+	margin-top: 7vw;
+	width: auto;
+}
+
+h2 {
+    font-family: 'NeutralFace';
+    font-weight: bold;
+	font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 10px);
+	color: #D4ADF7;
+}
+
+p {
+    font-family: 'Montserrat';
+	font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 8px);
+	color: #D4ADF7;
+}
+
+.textletter, .textsavethedate, .h1writeletter, .h1stickers, .h1msd {
+	font-size: calc((100vw - 480px)/(1280 - 480) * (24 - 16) + 30px);
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    line-height: 1.4;
+}
+
+body::-webkit-scrollbar {
+	width: 12px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+	background: #50415d;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+	background-color: #D4ADF7;    /* цвет плашки */
+	border-radius: 20px;       /* закругления плашки */
+	/* border: 3px solid orange;  padding вокруг плашки */
+  }
+  

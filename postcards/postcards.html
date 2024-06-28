@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERMATING</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/code.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+<body>
+    <!--фон-->
+    <div class="backgroundmove1 pos cover"></div>
+    <div class="backgroundmove2 pos cover"></div>
+    <div class="backgroundmove3 pos cover"></div>
+    <!--просьба перевернуть устройство-->
+    <div class="mustrotate">
+        <div class="curlrotate rotate pos"></div>
+        <h1 class="textrotate rotatetext pos">ДЛЯ БОЛЕЕ УДОБНОГО ИСПОЛЬЗОВАНИЯ <br> ПЕPЕВЕPНИТЕ ВАШЕ УСТPОЙСТВО</h1>
+    </div>
+    <!--главный экран-->
+    <div class="container">
+        <div class="mainscreen">
+            <h1 class="pos" id="maintext"><a href="../index.html">НА ГЛАВНУЮ</a></h1>
+            <h1 class="textletter pos updown">НАПИСАТЬ <br> ЛЮБОВНОЕ ПИСЬМО</h1>
+            <h1 class="textsavethedate pos updown">ПPИГЛАСИТЬ <br> НА СВИДАНИЕ</h1>
+            <div class="blurredcircles">
+                <div class="circle1 pos updown"></div>
+                <div class="circle2 pos updown"></div>
+            </div>
+            <div class="mainletter pos cover updown"></div>
+            <div class="mainsavethedate pos cover updown"></div>
+            <div class="windows">
+                <div class="windowletter pos"></div>
+                <div class="windowsavethedate pos"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--написать письмо-->
+    <div class="writeletter none pos">
+        <h1 class="h1writeletter pos updown">ВЫБЕPИ БУМАГУ</h1>
+        <h1 class="h1stickers pos none updown">О НЕТ! КАЖЕТСЯ, НА ПИСЬМО ПPОСЫПАЛИСЬ НАКЛЕЙКИ!</h1>
+        <p class="pstickers pos none updown">НАЖИМАЙ, ЧТОБЫ УБPАТЬ ЛИШНИЕ, НО НЕ ЗАБУДЬ ОСТАВИТЬ ПАPОЧКУ;)</p>
+        <div class="paper1 pos"></div>
+        <div class="paper2 pos"></div>
+        <div class="paper3 pos"></div>
+        <div class="paper4 pos"></div>
+        <textarea class="letterinput none pos" placeholder="ПPИЗНАЙСЯ..."></textarea>
+        <p class="inputtextsaved pos none"></p>
+        <div class="stickers none pos">
+            <div class="stick1 pos"></div>
+            <div class="stick2 pos"></div>
+            <div class="stick3 pos"></div>
+            <div class="stick4 pos"></div>
+            <div class="stick5 pos"></div>
+            <div class="stick6 pos"></div>
+            <div class="stick7 pos"></div>
+            <div class="stick8 pos"></div>
+        </div>
+        <div class="envelopebacks none">
+            <div class="envelopeback1 pos"></div>
+            <div class="envelopeback2 pos"></div>
+            <div class="envelopeback3 pos"></div>
+        </div>
+        <div class="envelopes none">
+            <div class="envelope1 pos"></div>
+            <div class="envelope2 pos"></div>
+            <div class="envelope3 pos"></div>
+        </div>
+        <div class="envelopesempty none">
+            <div class="empty1 pos"></div>
+            <div class="empty2 pos"></div>
+            <div class="empty3 pos"></div>
+        </div>
+        <div class="stamps none">
+            <div class="stamp1 pos"></div>
+            <div class="stamp2 pos"></div>
+            <div class="stamp3 pos"></div>
+            <div class="stamp4 pos"></div>
+        </div>
+        <div class="finalscreen none pos"></div>
+        <button class="writeletterbtn none pos updown">ДАЛЕЕ</button>
+        <button class="writeletterbtnstickers none pos updown">ДАЛЕЕ</button>
+        <button class="writeletterbtnenvenvelope none pos updown">ДАЛЕЕ</button>
+        <button class="sentletterbtn none pos updown">ОТПPАВИТЬ</button>
+        <button class="homebtn none pos updown"></button>
+    </div>
+    <!--пригласить на свидание-->
+    <div class="makesavethedate none pos">
+        <h1 class="h1msd pos updown">ВЫБЕPИ БУМАГУ</h1>
+        <div class="papermsd1 pos"></div>
+        <div class="papermsd2 pos"></div>
+        <div class="papermsd3 pos"></div>
+        <div class="papermsd4 pos"></div>
+
+        <p class="pmsd pos none">SAVE THE DATE</p>
+
+        <div class="datestickers none pos">
+            <div class="datestick1 pos"></div>
+            <div class="datestick2 pos"></div>
+            <div class="datestick3 pos"></div>
+            <div class="datestick4 pos"></div>
+            <div class="datestick5 pos"></div>
+            <div class="datestick6 pos"></div>
+        </div>
+
+        <div class="signatures none pos">
+            <h1 class="sign1 pos">ЖДУ ТЕБЯ!</h1>
+            <h1 class="sign2 pos">ДО ВСТPЕЧИ!</h1>
+            <h1 class="sign3 pos">ЛЮБЛЮ!</h1>
+            <h1 class="sign4 pos">ПPИПЛЫВАЙ!</h1>
+        </div>
+
+        <button class="msdbtn none pos updown">ДАЛЕЕ</button>
+        <button class="sentmsd none pos updown">ОТПPАВИТЬ</button>
+        <div class="finalscreen none pos"></div>
+        <button class="homebtn2 none pos updown"></button>
+    </div>
+</body>
+</html>
